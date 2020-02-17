@@ -16,7 +16,7 @@ def get_vertical_order(root, hd, mapping):
 def print_vertical_order(mapping):
     for key in sorted(mapping.iterkeys()):
         for val in mapping[key]:
-            print val,
+            print(val),
         print
 
 mapping = {}

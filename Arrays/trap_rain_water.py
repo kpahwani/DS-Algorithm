@@ -17,5 +17,5 @@ def find_water(heights, n):
     return water
 
 
-input_arr = map(int, raw_input("Enter heights: ").split())
-print find_water(heights=input_arr, n=len(input_arr))
+input_arr = map(int, input("Enter heights: ").split())
+print(find_water(heights=input_arr, n=len(input_arr)))

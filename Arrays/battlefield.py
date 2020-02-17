@@ -9,7 +9,7 @@
 t = input()
 while t:
     n = input()
-    arr = raw_input()
+    arr = input()
     window_len = arr.count('K')
     arr += arr
     count_k = arr[:window_len].count('K')
@@ -20,5 +20,5 @@ while t:
         if arr[i - window_len] == 'K':
             count_k -= 1
         max_k = max(count_k, max_k)
-    print window_len - max_k
+    print(window_len - max_k)
     t -= 1

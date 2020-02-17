@@ -10,8 +10,8 @@
 t = input()
 while t:
     n = input()
-    a = map(int, raw_input().split())
+    a = map(int, input().split())
     first_array = [a[i]+i for i in range(len(a))]
     second_array = [a[i]-i for i in range(len(a))]
-    print max(max(first_array)-min(first_array), max(second_array)-min(second_array))
+    print(max(max(first_array)-min(first_array), max(second_array)-min(second_array)))
     t -= 1

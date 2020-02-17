@@ -33,8 +33,8 @@ cache.set(2, 3)
 cache.set(1, 5)
 cache.set(4, 5)
 cache.set(6, 7)
-print cache.get(4)
-print cache.get(1)
+print(cache.get(4))
+print(cache.get(1))
 
 
 
