@@ -3,6 +3,7 @@ class Node:
         self.left = None
         self.data = value
         self.right = None
+        
 class Tree:  # Binary tree Class
     def createNode(self, data):
         return Node(data)

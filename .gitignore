@@ -44,3 +44,6 @@ include/
 man/
 env/
 venv/
+
+# IDE settings
+.vscode*

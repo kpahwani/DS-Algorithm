@@ -16,11 +16,6 @@ class Tree:
             self.traverse(root.right)
 
 
-# Your task is to complete this function
-# Function should print the level order of the tree in required format
-# only input to function is the root of the tree
-
-
 def traverse_level_order(root):
     queue = []
     if root:
@@ -57,4 +52,3 @@ if __name__ == '__main__':
                 k += 3
         traverse_level_order(root)
         print()
-
