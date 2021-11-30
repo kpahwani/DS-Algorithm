@@ -1,4 +1,4 @@
-from Trees.binary_tree import BinaryTree
+from trees.binary_tree import BinaryTree
 
 
 def get_vertical_order(root, hd, mapping):

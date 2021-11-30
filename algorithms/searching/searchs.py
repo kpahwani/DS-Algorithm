@@ -15,7 +15,7 @@ def binary_search(arr,l,r,k):
     # On the similar grounds we have interpolation, exponential, ternary search
     if r<l:
         return -1
-    m = floor((r-l)/2)
+    m = floor((r+l)/2)
     if arr[m] == k:
         return m
     elif arr[m] < k:
